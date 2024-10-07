@@ -2,3 +2,4 @@ curl -k -i --raw -o 0.dat -X POST  -H "Connection: Keep-Alive" -H "Client-ID: ki
 
 curl -k -i --raw -o 0.dat  -H "Connection: Upgrade" -H "Upgrade: websocket" -H "Sec-WebSocket-Key: D/yTRdwBQTSB2y1nJW/zSA==" -H "Sec-WebSocket-Version: 13" -H "Host: pubsub-edge.twitch.tv" "https://pubsub-edge.twitch.tv/v1"
 
+{"query":"{users(logins:[\"vedal987\",\"molly_rocket\",\"handmadenetwork\",\"cmuratori\",\"j_blow\",\"vallyconfident1\",\"miblo\",\"martincohen\",\"sssmcgrath\",\"mr4thdimention\",\"mvandevander\",\"abnercoimbre\",\"nothings2\",\"asafgartner\",\"rygorous\",\"pervognsen\",\"ourexi\",\"croepha\",\"jessicamak\",\"rseding91\",\"ryanfleury\",\"bvisness\"]){id,displayName,profileImageURL(width:70),stream{viewersCount}}}"}
