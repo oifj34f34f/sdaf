@@ -1,0 +1,4 @@
+curl -k -i --raw -o 0.dat -X POST  -H "Connection: Keep-Alive" -H "Client-ID: kimne78kx3ncx6brgo4mv6wki5h1ko" -H "Host: gql.twitch.tv" "https://gql.twitch.tv/gql"
+
+curl -k -i --raw -o 0.dat  -H "Connection: Upgrade" -H "Upgrade: websocket" -H "Sec-WebSocket-Key: D/yTRdwBQTSB2y1nJW/zSA==" -H "Sec-WebSocket-Version: 13" -H "Host: pubsub-edge.twitch.tv" "https://pubsub-edge.twitch.tv/v1"
+
